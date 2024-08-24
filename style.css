@@ -1,7 +1,15 @@
+html {
+    transform-origin: top center;
+    transform: scale(2);
+}
+.button {
+    text-align: center;
+    margin-top: 100px;
+}
 .msg {
     display: none;
     position: fixed;
-    width: 300px;
+    width: 200px;
     height: 40px;
     line-height: 40px;
     background-color: #29aba4;
@@ -10,6 +18,7 @@
     left: 0;
     right: 0;
     margin: auto;
+    margin-top: 40px;
     text-align: center;
     border-radius: 5px;
 }
